@@ -1,6 +1,9 @@
 // Dates
 
 let myDate = new Date()
+var newMyDate = myDate.toLocaleDateString()
+console.log(typeof newMyDate)
+
 // console.log(myDate);
 // // console.log(myDate.toString());
 // console.log(myDate.toLocaleString());
