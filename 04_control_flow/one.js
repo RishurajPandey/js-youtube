@@ -46,13 +46,13 @@ const loggedInFromEmail = true
 //     console.log("User Logged In");
 // }
 
-//Nullish Coalescing Operator (??): null undefined
+//Nullish Coalescing Operator (??): null & undefined ko chor ke agla wala answer de deta hai
 
 let val1;
 // val1 = 5 ?? 10
 // val1 = null ?? 10
 // val1 = undefined ?? 15
-val1 = null ?? 10 ?? 20
+// val1 = null ?? 10 ?? 20
 
 console.log(val1);
 
